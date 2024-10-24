@@ -1,8 +1,8 @@
 # Programming: The Basics 
 
-  Disclaimer: Parts of this text is written in a snarky, conversational tone. The snark isn't directed at anyone in particular, but if that isn't something you find humerous, this text isn't for you. I wrote it in this fashion because I want people to actually read it. Reading whitepapers, and text in their tone, make me want to boil my eyes because of how dry it is. 
+  Disclaimer: Parts of this text is written in a snarky, conversational tone. The snark isn't directed at anyone in particular, but if that isn't something you find humerous, this text isn't for you. I wrote it in this fashion because I want people to actually read it. Reading whitepapers, and text in that style, make me want to boil my eyes because of how dry it is. 
 
-Even though this text is intended to give a more holistic, general overview of programming, it's written under the assumption the reader has some level of familiarty with programming. If you feel confident I can describe a small problem and then you can take that description and implement some form of a solution 
+Even though this text is intended to give a more holistic, general overview of programming, it's written under the assumption the reader has some level of familiarty with programming. If you feel confident in your abilities to where I can describe a small problem and then you can implement some form of a solution, then that background should be enough to be able to take something away from this book.
 
 ## Language Families
 
@@ -15,6 +15,10 @@ If you've programmed, you've probably done so in C or one if its descendants. It
 C-descendants are highly discernable by their use of statments, curly braces, 
 
 ### LISP-descendants 
+
+LISP, standing for LISt Processing, being just a few years younger than ALOGOL, is one of the oldest, high-level languages. LISP introduced ideas of garbage collection, dynamic typing, and higher-order functions. It's descendants (particularly Scheme) introduced things like proper* recursion.
+
+  Here "proper" refers to tail-call optimized recursion. In more-sophisticated compiliers/interpreters, recursion is translated to the same instructions that loops are 
 
 ### ML-descendants
 
